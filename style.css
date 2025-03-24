@@ -1,0 +1,103 @@
+body{
+    background-image:url(img/RandomBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html, body{
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+img.rounded-circle {
+    border: 4px solid #f165d3;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#about{
+    margin-top: 50px;
+}
+
+#paragraph{
+    font-family: Copperplate, Papyrus, fantasy;
+    color: rgb(252, 207, 255);
+    text-align: justify;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+nav{
+    position: fixed;
+}
+
+#opening{
+    font-family: "Brush Script MT", cursive;
+    margin-top: 50px;
+    color: rgb(252, 207, 255);
+}
+
+.btn-outline-danger {
+    color: rgb(252, 207, 255) !important;
+    border-color: rgb(252, 207, 255) !important;
+    margin-bottom: 25px;
+}
+
+.btn-outline-danger:hover {
+    background-color: rgb(252, 207, 255) !important; 
+    color: magenta !important; 
+}
+
+.content {
+    flex: 1;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.masonry-gallery {
+    column-count: 3;
+    column-gap: 15px;
+    border-radius: 25px;
+}
+
+.masonry-gallery img {
+    background-color: rgb(54, 24, 59);
+    padding: 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+.masonry-gallery img:hover{
+    background-color: rgb(202, 168, 250);
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.3);
+}
